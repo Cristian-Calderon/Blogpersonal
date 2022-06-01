@@ -29,6 +29,12 @@ li{
 
 }
 
+.main-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .container-img{
     width: 100%;
     height: 72px;
@@ -53,8 +59,6 @@ li{
     height: 39px;
 }
 
-
- 
  .navegador{
      width: 100%;
      height: 116px;
@@ -151,7 +155,7 @@ li{
 }
 
 .parrafo-general{
-    font-family: 'Overlock' cursive;
+    font-family: 'Overlock', cursive;
     font-size: 2.8rem;
     text-align: justify;
 }
@@ -237,7 +241,7 @@ li{
 }
 
 .porcentaje{
-    font-family: 'Overlock' cursive;
+    font-family: 'Overlock', cursive;
     font-size: 20px;
     font-weight: bold;
     color: #000000;
@@ -259,11 +263,49 @@ footer{
     flex-direction: column;
 }
 
-.rs-iconos img{
-    width: 62px;
-    height: 60px;
-
+.rs-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+.imagenteclado{
+    width: 52px;
+    height: 48px;
+    background-color: var(--celestito);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenteclado img{
+    width: 36px;
+    height: 39px;
+}
+
+.rs-titulo p{
+    font-size: 3rem;
+    font-family: 'Overlock', cursive;
+    margin-left: 20px;
+    color: var(--white);
+}
+
+.rs-iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.rs-iconos img{
+    width: 46px;
+    height: 48px;
+    margin-left: 18px;
+}
+
+
 
 .politica{
     width: 100%;
@@ -271,11 +313,48 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
 }
+
 
 .politica p{
     color: var(--white);
     font-size: 3rem;
+    margin-right: 200px;
 }
 
 
+/* Estilos de la pagina Proyectos */
+
+.contenedor-proyecto{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-amarillo{
+    width: 956px;
+    height: 95%;
+    background-color: var(--amarillo);
+    margin: 0 84px;
+    border-radius: 44px;
+}
+
+.contenedor-texto{
+    width: 28%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-texto p:first-child{
+    font-family:'Overlock', cursive;
+    font-size: 4.5rem;
+    margin-bottom: 22px;
+}
+
+.contenedor-texto p:last-child{
+    font-family: 'Overlock', cursive;
+    font-size: 2.8rem;
+}

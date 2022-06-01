@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Blog</title>
-    <link rel="stylesheet" href="./css/style.css" />
 
-    <!-- Tipo de fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Blog</title>
+  <link rel="stylesheet" href="./css/style.css" />
 
-  <body>
-    <!-- Cabecera -->
+  <!-- Tipo de fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap" rel="stylesheet" />
+
+  
+</head>
+
+<body>
+  <main class="main-principal">
+     <!-- Cabecera-->
     <header>
       <nav class="container-nav">
         <section class="container-img">
@@ -27,9 +28,9 @@
         </section>
         <section class="navegador">
           <ul class="navegador-lista">
-            <li><a href="">Home</a></li>
+            <li><a href="#">Home</a></li>
             <span class="adorno">/</span>
-            <li><a href="">My Work</a></li>
+            <li><a href="./proyecto.html">My Work</a></li>
             <span class="adorno">/</span>
             <li><a href="">Contact</a></li>
           </ul>
@@ -40,28 +41,32 @@
       </nav>
     </header>
 
-    <!-- Menu principal-->
-    <main class="menu-container">
+    <!-- Contenido Pricipal -->
+    <section class="menu-container">
       <section class="menu-datos">
         <p>
-          <span class="menorq"> < </span>Hola
-          <span class="exclamacion">!!!,</span> soy
+          <span class="menorq">
+            < </span>Hola
+              <span class="exclamacion">!!!,</span> soy
         </p>
-        <h2 class="menu-subtitulo">Cristian Calderon <span class="menorq"> > </span></h2>
-        <address><img src="./assets/icons/marker.png" alt="logo de ubicacion">Barcelona - España</address>
+        <h2 class="menu-subtitulo">
+          Cristian Calderon <span class="menorq"> > </span>
+        </h2>
+        <address>
+          <img src="./assets/icons/marker.png" alt="logo de ubicacion" />Barcelona - España
+        </address>
         <p class="parrafo-general">
           Me dedico a desarrollo web Frontend Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Optio deserunt neque consequuntur, nemo
-          sit eveniet quasi a qui
+          consectetur adipisicing elit. Optio deserunt neque consequuntur,
+          nemo sit eveniet quasi a qui
         </p>
       </section>
 
       <section class="menu-skills">
         <h2 class="menu-subtitulo subtitulo-soft">Software developer</h2>
         <section class="skills-container">
-
           <div class="habilidades">
-            <img src="./assets/icons/js.png" alt="icono de javascritp">
+            <img src="./assets/icons/js.png" alt="icono de javascritp" />
             <div class="skills-avanzado">
               <div class="avanzado-compl"></div>
             </div>
@@ -69,7 +74,7 @@
           </div>
 
           <div class="habilidades">
-            <img src="./assets/icons/html-5.png" alt="icono de html 5">
+            <img src="./assets/icons/html-5.png" alt="icono de html 5" />
             <div class="skills-avanzado">
               <div class="avanzado-html"></div>
             </div>
@@ -77,7 +82,7 @@
           </div>
 
           <div class="habilidades">
-            <img src="./assets/icons/css-3.png" alt="icono de css 3">
+            <img src="./assets/icons/css-3.png" alt="icono de css 3" />
             <div class="skills-avanzado">
               <div class="avanzado-css"></div>
             </div>
@@ -85,7 +90,7 @@
           </div>
 
           <div class="habilidades">
-            <img src="./assets/icons/android.png" alt="icono de android">
+            <img src="./assets/icons/android.png" alt="icono de android" />
             <div class="skills-avanzado">
               <div class="avanzado-android"></div>
             </div>
@@ -93,30 +98,31 @@
           </div>
         </section>
       </section>
-    </main>
+    </section>
 
-
-    <footer>
+     <!-- Footer-->
+     <footer>
       <section class="redes-sociales">
         <div class="rs-titulo">
-          <div class="imagenteclado"></div>
+          <div class="imagenteclado"><a href="#"><img src="./assets/icons/keyboard.png" alt=""></a></div>
           <p>Cristian Calderon</p>
         </div>
         <div class="rs-iconos">
-          <img src="./assets/icons/github.png" alt="">
-          <img src="./assets/icons/twitch.png" alt="">
-          <img src="./assets/icons/twitter.png" alt="">
-          <img src="./assets/icons/instagram.png" alt="">
-          <img src="./assets/icons/spotify.png" alt="">
+          <a href="https://github.com/Gardeel/Blogpersonal"><img src="./assets/icons/github.png" alt="" /></a> 
+          <a href="https://www.twitch.tv/"><img src="./assets/icons/twitch.png" alt="" /></a> 
+          <a href="https://twitter.com/igardeel"><img src="./assets/icons/twitter.png" alt="" /></a>
+          <a href="https://www.instagram.com/igardeel/"><img src="./assets/icons/instagram.png" alt="" /></a>
+          <a href="https://open.spotify.com/user/criss_damaso?si=2ad04cace6b7407d"><img src="./assets/icons/spotify.png" alt="" /></a>
         </div>
       </section>
       <section class="politica">
-        <p>Legal</p>
-        <p>Politica de Privacidad</p>
-        <p>Politica de Cookies</p>
+        <div>
+          <a href="#"><p>Legal</p></a>
+          <a href="#"><p>Politica de Privacidad</p></a>
+          <a href="#"><p>Politica de Cookies</p></a>
+        </div>
       </section>
     </footer>
-
-    
-  </body>
+  </main>
+</body>
 </html>
