@@ -173,6 +173,17 @@ li{
 
 }
 
+.subtitulo-soft{
+    margin-top: 12px;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .habilidades{
     width: 700px;
     height: 100px;
@@ -201,16 +212,70 @@ li{
     border-bottom-left-radius: 11px;
 }
 
+.avanzado-html{
+    background-color: #7BBDED;
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+.avanzado-css{
+    background-color: #7BBDED;
+    width: 70%;
+    height: 100%;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+.avanzado-android{
+    background-color: #7BBDED;
+    width: 36%;
+    height: 100%;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
 .porcentaje{
     font-family: 'Overlock' cursive;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #000000;
-    opacity: 42%;
+    opacity: 75%;
 }
 
 footer{
     width: 100%;
     height: 148px;
     background-color:var(--dorado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.redes-sociales{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rs-iconos img{
+    width: 62px;
+    height: 60px;
+
+}
+
+.politica{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.politica p{
+    color: var(--white);
+    font-size: 3rem;
+}
+
+
