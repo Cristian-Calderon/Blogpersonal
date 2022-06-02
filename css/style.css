@@ -358,3 +358,79 @@ footer{
     font-family: 'Overlock', cursive;
     font-size: 2.8rem;
 }
+
+
+
+/* Estilos de la pagina contacto */
+.contenedor-info{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-contacto{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-contacto p:first-child{
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: start;
+}
+
+.info-contacto p:last-child{
+    font-family: 'Overlock', cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.info-formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+}
+
+.formalario-top{
+}
+
+.formalario-top label{
+    font-size: 3rem;
+    font-family: 'Overlock', cursive;
+    opacity: 60%;
+}
+.formalario-top .form-top{
+    width: 348px;
+    height: 51px;
+    border-radius: 44px;
+}
+
+.formalario-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.formalario-bottom label{
+    font-size: 3rem;
+    font-family: 'Overlock', cursive;
+    opacity: 60%;
+}
+
+.formalario-bottom .form-suj{
+    width: 843px;
+    height: 51px;
+    border-radius: 44px;
+}
+
+.formalario-bottom .form-massege{
+    width: 843px;
+    height: 240px;
+    border-radius: 44px;
+}
