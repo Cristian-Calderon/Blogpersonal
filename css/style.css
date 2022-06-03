@@ -399,18 +399,37 @@ footer{
 }
 
 .formalario-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
 }
 
+.nombre-division{
+    display: flex;
+    flex-direction: column;
+}
+
+.correo-division{
+    display: flex;
+    flex-direction: column;
+}
+
+.rojo{
+    color: #F23B3B;
+}
 .formalario-top label{
     font-size: 3rem;
     font-family: 'Overlock', cursive;
-    opacity: 60%;
+    opacity: 80%;
 }
 .formalario-top .form-top{
     width: 348px;
     height: 51px;
     border-radius: 44px;
+    font-size: 2.5rem;
 }
+
+
 
 .formalario-bottom{
     display: flex;
@@ -420,7 +439,7 @@ footer{
 .formalario-bottom label{
     font-size: 3rem;
     font-family: 'Overlock', cursive;
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .formalario-bottom .form-suj{
@@ -433,4 +452,15 @@ footer{
     width: 843px;
     height: 240px;
     border-radius: 44px;
+}
+
+.subject{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
 }
