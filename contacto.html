@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
-      <!-- Tipo de fuente -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap" rel="stylesheet" />
-</head>
-<body>
-    
- <!-- Cabecera-->
- <main class="main-principal">
- <header>
-    <nav class="container-nav">
-      <section class="container-img">
-        <div class="imgteclado">
-          <img src="./assets/icons/keyboard.png" alt="icono de teclado" />
-        </div>
-      </section>
-      <section class="navegador">
-        <ul class="navegador-lista">
-          <li><a href="#">Home</a></li>
-          <span class="adorno">/</span>
-          <li><a href="./proyecto.html">My Work</a></li>
-          <span class="adorno">/</span>
-          <li><a href="./contacto.html">Contact</a></li>
-        </ul>
-      </section>
-      <section class="container-sep">
-        <div class="separador"></div>
-      </section>
-    </nav>
-  </header>
+    <!-- Tipo de fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Cabecera-->
+    <main class="main-principal">
+      <header>
+        <nav class="container-nav">
+          <section class="container-img">
+            <div class="imgteclado">
+              <img src="./assets/icons/keyboard.png" alt="icono de teclado" />
+            </div>
+          </section>
+          <section class="navegador">
+            <ul class="navegador-lista">
+              <li><a href="./index.html">Home</a></li>
+              <span class="adorno">/</span>
+              <li><a href="./proyecto.html">My Work</a></li>
+              <span class="adorno">/</span>
+              <li><a href="./contacto.html">Contact</a></li>
+            </ul>
+          </section>
+          <section class="container-sep">
+            <div class="separador"></div>
+          </section>
+        </nav>
+      </header>
 
- <!-- Contenido Pricipal -->
-  <section class="contenedor-info">
-      <div class="info-contacto">
+      <!-- Contenido Pricipal -->
+      <section class="contenedor-info">
+        <div class="info-contacto">
           <p>Contact me</p>
-          <p>Si desea conversar sobre un proyecto o simplemente tiene una pregunta, complete el formulario a continuación. Mi objetivo es volver dentro de 2 días.</p>
-      </div>
-      <div class="info-formulario">
-        <form action="">
+          <p>
+            Si desea conversar sobre un proyecto o simplemente tiene una
+            pregunta, complete el formulario a continuación. Mi objetivo es
+            volver dentro de 2 días.
+          </p>
+        </div>
+        <div class="info-formulario">
+          <form action="">
             <div class="formalario-top">
-                <label for="nombre">
-                    Name <span>*</span>
-                    <input class="form-top" type="text"  id="nombre">
-                </label>
-                <label for="correo">
-                    Email <span>*</span>
-                    <input class="form-top" type="email"  id="correo">
-                </label>
+              <div class="nombre-division">
+                <label for="nombre"> Name <span class="rojo">*</span> </label>
+                <input class="form-top" type="text" id="nombre" />
+              </div>
+              <div class="correo-division">
+                <label for="correo"> Email <span class="rojo">*</span> </label>
+                <input class="form-top" type="email" id="correo" />
+              </div>
             </div>
             <div class="formalario-bottom">
+              <div class="subject">
                 <label for="subject">
-                    Subject <span>*</span>
-                    <input class="form-suj" type="text" id="subject">
+                  Subject <span class="rojo">*</span>
                 </label>
+                <input class="form-suj" type="text" id="subject" />
+              </div>
+              <div class="message">
                 <label for="message">
-                    Massege <span>*</span>
-                    <input class="form-massege" type="text" id="message">
+                  Massege <span class="rojo">*</span>
                 </label>
+                <input class="form-massege" type="text" id="message" />
+              </div>
             </div>
-        </form>
-      </div>
-  </section>
-
-  </main>
-
-</body>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
